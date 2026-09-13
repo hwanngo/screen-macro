@@ -1,0 +1,6 @@
+[project]
+name = "screen-macro"
+version = "0.1.0"
+description = "A JSON-driven global-hotkey screen macro runner"
+requires-python = ">=3.14"
+dependencies = ["pynput", "pyautogui", "pillow", "opencv-python"]

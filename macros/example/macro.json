@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "startup": [
+    {
+      "type": "click_template",
+      "path": "assets/example-button.png"
+    }
+  ],
+  "rounds": {
+    "cycles": 185
+  },
+  "loop": [
+    {
+      "type": "key",
+      "random_choice": ["1", "2"]
+    },
+    {
+      "type": "wait",
+      "min_seconds": 0.5,
+      "max_seconds": 0.8
+    },
+    {
+      "type": "key",
+      "key": "right"
+    },
+    {
+      "type": "wait",
+      "min_seconds": 0.5,
+      "max_seconds": 0.8
+    }
+  ],
+  "after_round": [
+    {
+      "type": "key",
+      "key": "enter"
+    },
+    {
+      "type": "click_template",
+      "path": "assets/example-button.png"
+    },
+    {
+      "type": "wait",
+      "min_seconds": 0.5,
+      "max_seconds": 0.8
+    }
+  ]
+}

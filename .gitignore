@@ -1,0 +1,32 @@
+# Python bytecode and tooling caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local planning artifacts
+.superpowers/
+docs/superpowers/
+
+# Personal macro definitions stay local; the generic example is shareable.
+macros/*
+!macros/example/
+!macros/example/**
